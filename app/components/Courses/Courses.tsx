@@ -14,30 +14,30 @@ interface Name {
 
 const names: Name[] = [
     {
-        course: 'HTML, CSS, JS',
+        course: 'React',
         imageSrc: '/assets/courses/coursesOne.svg',
-        profession: 'HTML, CSS, Javascript Development',
+        profession: 'Master React JS',
         price: '40',
         category: 'webdevelopment'
     },
     {
-        course: 'Node.js',
+        course: 'Angular',
         imageSrc: '/assets/courses/coursesTwo.svg',
-        profession: 'Backend with Node.js and Express.js',
+        profession: 'Learning Angular from Scratch',
         price: '21',
         category: 'webdevelopment'
     },
     {
-        course: 'Database',
+        course: 'Vue.js',
         imageSrc: '/assets/courses/coursesThree.svg',
-        profession: 'Learn Mongodb with Mongoose',
+        profession: 'Complete Vue Developer',
         price: '21',
         category: 'webdevelopment'
     },
     {
-        course: 'React.js',
+        course: 'Node.js',
         imageSrc: '/assets/courses/coursesFour.svg',
-        profession: 'Learn React with Redux toolkit',
+        profession: 'Learn Node.js with Express.js',
         price: '99',
         category: 'webdevelopment'
     },
@@ -50,78 +50,78 @@ const names: Name[] = [
     },
     {
         course: 'Swift',
-        imageSrc: '/assets/courses/coursesThree.svg',
+        imageSrc: '/assets/courses/courses9.svg',
         profession: 'Learn Swift from Scratch',
         price: '89',
         category: 'mobiledevelopment'
     },
     {
         course: 'Flutter',
-        imageSrc: '/assets/courses/coursesFour.svg',
+        imageSrc: '/assets/courses/courses10.svg',
         profession: 'Flutter App Development',
         price: '69',
         category: 'mobiledevelopment'
     },
     {
         course: 'Onsen UI',
-        imageSrc: '/assets/courses/coursesTwo.svg',
+        imageSrc: '/assets/courses/courses11.svg',
         profession: 'Learn Onsen Ui with HTML, CSS',
         price: '69',
         category: 'mobiledevelopment'
     },
     {
         course: 'TensorFlow',
-        imageSrc: '/assets/courses/coursesTwo.svg',
+        imageSrc: '/assets/courses/courses12.svg',
         profession: 'Learn TensorFlow with SQL',
         price: '99',
         category: 'datascience'
     },
     {
-        course: 'AWS',
-        imageSrc: '/assets/courses/coursesFour.svg',
-        profession: 'AWS Deep Learning AMI',
-        price: '99',
-        category: 'datascience'
-    },
-    {
         course: 'Bokeh',
-        imageSrc: '/assets/courses/coursesOne.svg',
+        imageSrc: '/assets/courses/courses13.svg',
         profession: 'Learn Bokeh with Python',
         price: '99',
         category: 'datascience'
     },
     {
-        course: 'Scikit',
-        imageSrc: '/assets/courses/coursesThree.svg',
-        profession: 'Scikit with Python Development',
+        course: 'AWS',
+        imageSrc: '/assets/courses/coursesSix.svg',
+        profession: 'AWS Deep Learning AMI',
+        price: '99',
+        category: 'datascience'
+    },
+    {
+        course: 'Python',
+        imageSrc: '/assets/courses/courses13.svg',
+        profession: 'Python Development',
         price: '89',
         category: 'datascience'
     },
     {
-        course: 'Laas',
-        imageSrc: '/assets/courses/coursesThree.svg',
-        profession: 'Infra-as-a-Service',
+        course: 'Docker',
+        imageSrc: '/assets/courses/coursesFive.svg',
+        profession: 'Become a Docker Certified',
         price: '21',
         category: 'cloudcomputing'
     },
     {
-        course: 'Iaas',
-        imageSrc: '/assets/courses/coursesFour.svg',
-        profession: 'Info-as-a-Service',
+        course: 'AWS',
+        imageSrc: '/assets/courses/coursesSix.svg',
+        profession: 'AWS Certification Training',
         price: '29',
         category: 'cloudcomputing'
     },
     {
-        course: 'Paas',
-        imageSrc: '/assets/courses/coursesOne.svg',
-        profession: 'Platform-as-a-Service',
+        course: 'Kubernetes',
+        imageSrc: '/assets/courses/coursesSeven.svg',
+        profession: 'Kubernetes: A Deep Dive - Learn Interactively',
         price: '99',
         category: 'cloudcomputing'
     },
     {
-        course: 'Saas',
-        imageSrc: '/assets/courses/coursesTwo.svg',
-        profession: 'Software-as-a-Service',
+        course: 'GCP',
+        imageSrc: '/assets/courses/coursesEight.svg',
+        profession: 'GCP certification',
         price: '58',
         category: 'cloudcomputing'
     }
@@ -164,7 +164,7 @@ const NamesList = () => {
                     <div className="mt-6 block font-normal text-gray-900">
                         {name.course}
                     </div>
-                    <div className="mt-6 block text-lg font-semibold text-green border-solid border-2 border-green rounded-md px-1">
+                    <div className="mt-6 block text-lg font-semibold text-bgpurple border-solid border-2 border-bgpurple rounded-md px-1">
                         ${name.price}
                     </div>
                 </div>

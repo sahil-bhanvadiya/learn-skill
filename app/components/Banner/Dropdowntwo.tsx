@@ -9,9 +9,13 @@ type Hourtype = {
 
 const Hour: Hourtype[] = [
   { name: '20hrs in a Month' },
+  { name: '25hrs in a Month' },
   { name: '30hrs in a Month' },
+  { name: '35hrs in a Month' },
   { name: '40hrs in a Month' },
+  { name: '45hrs in a Month' },
   { name: '50hrs in a Month' },
+  { name: '+50hrs in a Month' },
 ]
 
 const Dropdown = () => {

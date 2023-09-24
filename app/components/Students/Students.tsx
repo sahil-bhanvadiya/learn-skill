@@ -36,8 +36,8 @@ const postData: DataType[] = [
     },
     {
         profession: 'UX/UI Designer',
-        name: 'Andrew Williams',
-        imgSrc: '/assets/students/user-1.jpg',
+        name: 'Henry Ford',
+        imgSrc: '/assets/students/user-2.jpg',
         starimg: '/assets/students/stars.png',
         detail: "I have been a Junior Graphic Designer for more then 10 years. Some things are problem that I had and teach how to solve them. That's why this course is so great!"
     },

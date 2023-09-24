@@ -18,7 +18,7 @@ const Signin = () => {
         <>
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <div className='hidden md:block'>
-                    <button type="button" className='text-15px font-medium space-links' onClick={openModal}>
+                    <button type="button" className='text-15px font-medium hover:text-purple space-links' onClick={openModal}>
                         Sign In
                     </button>
                 </div>
@@ -60,7 +60,7 @@ const Signin = () => {
                                                     alt="Your Company"
                                                 />
                                                 <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
-                                                    Sign in to your account
+                                                    Sign in
                                                 </h2>
                                             </div>
                                             <form className="mt-8 space-y-6" action="#" method="POST">
@@ -76,7 +76,7 @@ const Signin = () => {
                                                             type="email"
                                                             autoComplete="email"
                                                             required
-                                                            className="relative block w-full appearance-none rounded-none rounded-t-md border border-grey500 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                                                            className="relative block w-full appearance-none rounded-none rounded-t-md border border-grey500 p-3 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500"
                                                             placeholder="Email address"
                                                         />
                                                     </div>
@@ -90,7 +90,7 @@ const Signin = () => {
                                                             type="password"
                                                             autoComplete="current-password"
                                                             required
-                                                            className="relative block w-full appearance-none rounded-none rounded-b-md border border-grey500 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                                                            className="relative block w-full appearance-none rounded-none rounded-b-md border border-grey500 p-3 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500"
                                                             placeholder="Password"
                                                         />
                                                     </div>
@@ -129,17 +129,6 @@ const Signin = () => {
                                                 </div>
                                             </form>
                                         </div>
-                                    </div>
-
-
-                                    <div className="mt-4 flex justify-end">
-                                        <button
-                                            type="button"
-                                            className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                                            onClick={closeModal}
-                                        >
-                                            Got it, thanks!
-                                        </button>
                                     </div>
                                 </Dialog.Panel>
                             </Transition.Child>

@@ -63,7 +63,7 @@ const Navbar = () => {
                                             href={item.href}
                                             className={classNames(
                                                 item.current ? ' text-purple' : 'hover:text-purple',
-                                                'px-3 py-4 text-15px font-medium space-links'
+                                                'px-3 py-4 text-15px font-medium'
                                             )}
                                             aria-current={item.href ? 'page' : undefined}
                                         >

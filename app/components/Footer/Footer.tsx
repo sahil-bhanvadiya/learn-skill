@@ -47,7 +47,7 @@ const footer = () => {
                             <ul>
                                 {product.link.map((link: string, index: number) => (
                                     <li key={index} className='mb-5'>
-                                        <Link href="/" className="text-offwhite text-sm font-normal mb-6 space-links">{link}</Link>
+                                        <Link href="/" className="text-offwhite text-sm font-normal mb-6 hover:text-purple">{link}</Link>
                                     </li>
                                 ))}
                             </ul>
@@ -74,7 +74,7 @@ const footer = () => {
             {/* All Rights Reserved */}
 
             <div className='pb-24 px-4'>
-                <h3 className='text-center text-offwhite'>@2023 - All Rights Reserved by <Link href="https://adminmart.com/" target="_blank"> Adminmart.com</Link></h3>
+                <h3 className='text-center text-offwhite'>@2023 - All Rights Reserved by Lorem Ipsum</h3>
             </div>
 
         </div>

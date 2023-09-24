@@ -7,10 +7,12 @@ type Coursetype = {
   };
   
   const course: Coursetype[] = [
-  { name: 'UX and UI Design' },
+  { name: 'Digital Marketing' },
+  { name: 'UI/UX Designer' },
   { name: 'Front End Development' },
   { name: 'Back End Development' },
-  { name: 'Ethical Hacking' },
+  { name: 'Full Stack Developer' },
+  { name: 'DevOps Engineer' },
 ]
 
 const Dropdown = () => {

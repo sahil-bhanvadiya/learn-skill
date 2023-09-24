@@ -43,15 +43,15 @@ html:not([data-scroll="0"]) .navbar {
 @media screen and (max-width: 640px) {
   .banner-image {
     background-image: none !important;
-    background-color: #FCF5EF;
+    background-color: #c0f1fa;
   }
 }
 
 .bg-newsletter {
-  background-image: url('/assets/newsletter/hands.svg');
+  /* background-image: url('/assets/newsletter/hands.svg');
   background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 
@@ -90,11 +90,4 @@ html:not([data-scroll="0"]) .navbar {
 
 .footer-icons:hover{
   transform: translateY(-8px);
-}
-
-.space-links {
-  transition: .3s;
-}
-.space-links:hover {
-  letter-spacing: 1px;
 }
